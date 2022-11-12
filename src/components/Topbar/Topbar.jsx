@@ -33,7 +33,7 @@ const Topbar = () => {
                     </li>
                 </ul>
                 <button className="btn nav-btn" type="submit" data-bs-toggle="modal" data-bs-target="#walletModal">Connect Wallet</button>
-                <div className="modal fade" id="walletModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                {/* <div className="modal fade" id="walletModal" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
                     <div className="modal-dialog modal-dialog-centered">
                         <div className="modal-content">
                             <div className="modal-header">
@@ -61,7 +61,7 @@ const Topbar = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </nav>
