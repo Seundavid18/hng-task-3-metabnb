@@ -1,0 +1,53 @@
+.community{
+    width: 100%;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.comTitle{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #fff;
+}
+
+.comDesc{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.comBtn{
+    margin-top: 30px;
+    background: #fff;
+    color: #A02279;
+}
+
+.comBtn:hover{
+    background: #fff;
+    color: #A02279;
+}
+
+
+.flex-meta{
+    flex: 4;
+    align-self: center;
+}
+
+.flex-box{
+    flex: 6;
+}
+
+@media(max-width: 768px){
+    .flex-box{
+        display: none;
+    }
+}
+
+.comImg{
+    width: 100%;
+}
