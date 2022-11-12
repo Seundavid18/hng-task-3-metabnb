@@ -8,10 +8,10 @@ const Nft = () => {
     <div className='container mt-5'>
         <h1 className='inspo mb-5'>Inspiration for your next adventure</h1>
         <div className='mb-5'>
-            <div className='nftBody gap-3'>
+            <div className='row justify-content-md-center row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 '>
                 {nFTS.slice(0,8).map((item) => {
                     return(
-                        <div className='ntfItems'>
+                        <div className='col nftBody'>
                             <div className='card nftCard' key={item.id}>
                                 <div className='card-body'>
                                     <img src={item.img} alt="" className='nftImg' />

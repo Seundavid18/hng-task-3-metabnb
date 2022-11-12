@@ -14,22 +14,18 @@
 }
 
 .nftBody{
-    margin: auto;
-    padding: 30px 0px;
     display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
     justify-content: center;
 }
 
 .nftItems{
-    width: 10%;
+    width: 20%;
     box-sizing: border-box;
 
 }
 
 .nftCard{
-    width: 292px;
+    max-width: 292px;
     height: 372px;
     background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
     border: 1px solid #D7D7D7;
@@ -67,14 +63,15 @@
 }
 
 
-@media screen and (max-width: 1024px)  {
-    .nftItems{
-        width: 50%;
+@media(max-width: 1000px)  {
+    .nftBody{
+        width: 45%;
     }
 }
 
-@media screen and (max-width: 768px)  {
-    .nftItems{
+
+@media(max-width: 750px)  {
+    .nftBody{
         width: 100%;
     }
 }
