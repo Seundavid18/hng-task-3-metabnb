@@ -1,9 +1,9 @@
 import React from 'react'
 import Topbar from '../../components/Topbar/Topbar'
 import './nftplace.css'
-import TuneIcon from '@mui/icons-material/Tune';
 import { nFTS } from '../../components/NFTs-Data/Nftdata'
 import Footer from '../../components/Footer/Footer'
+import LocationModal from '../../components/Modal/LocationModal';
 
 const NftPlace = () => {
   return (
@@ -20,11 +20,8 @@ const NftPlace = () => {
                     <li className='locationListItem'>Carbins</li>
                     <li className='locationListItem'>Off-grid</li>
                     <li className='locationListItem'>Farm</li>
-                    <li className='locationListItem'>
-                        <span className='btnLocation'>Location<TuneIcon className='ms-4'/></span>
-                    </li>
+                    <LocationModal />
                 </ul>
-                {/* <button className='btnLocation'>Location</button> */}
             </div>
             <h1 className='inspo mb-5'>Inspiration for your next adventure</h1>
             <div className='mb-5'>
