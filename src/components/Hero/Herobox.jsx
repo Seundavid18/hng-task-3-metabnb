@@ -7,8 +7,8 @@ const Herobox = () => {
   return (
     <div className='hero mt-5'>
         <div className='container'>
-            <div className='d-lg-flex flex-nowrap align-items-center gap-5'>
-                <div className=''>
+            <div className='row row-cols-1 row-cols-lg-2 align-items-center g-5'>
+                <div className='col col-lg-7'>
                     <h1 className='heroTxt mb-4'>Rent a <span style={{color: "#A02279"}}>Place</span> away from <span style={{color: "#A02279"}}>Home</span> in the <span style={{color: "#A02279"}}>Metaverse</span></h1>
                     <p className='heroDesc'>we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
                     <form className="mt-5 mb-4">
@@ -18,7 +18,7 @@ const Herobox = () => {
                         </div>
                     </form>
                 </div>
-                <div className='heroImg'>
+                <div className='col col-lg-5'>
                     <img src={heroImg} alt="" className='heroImg'/>
                 </div>
             </div>

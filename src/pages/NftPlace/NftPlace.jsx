@@ -1,6 +1,7 @@
 import React from 'react'
 import Topbar from '../../components/Topbar/Topbar'
 import './nftplace.css'
+import TuneIcon from '@mui/icons-material/Tune';
 import { nFTS } from '../../components/NFTs-Data/Nftdata'
 import Footer from '../../components/Footer/Footer'
 
@@ -9,6 +10,22 @@ const NftPlace = () => {
     <div>
         <Topbar />
         <div className='container mt-5'>
+            <div className='location'>
+                <ul className='locationList'>
+                    <li className='locationListItem'>Resturant</li>
+                    <li className='locationListItem'>Cottage</li>
+                    <li className='locationListItem'>Castle</li>
+                    <li className='locationListItem'>Fantast city</li>
+                    <li className='locationListItem'>Beach</li>
+                    <li className='locationListItem'>Carbins</li>
+                    <li className='locationListItem'>Off-grid</li>
+                    <li className='locationListItem'>Farm</li>
+                    <li className='locationListItem'>
+                        <span className='btnLocation'>Location<TuneIcon className='ms-4'/></span>
+                    </li>
+                </ul>
+                {/* <button className='btnLocation'>Location</button> */}
+            </div>
             <h1 className='inspo mb-5'>Inspiration for your next adventure</h1>
             <div className='mb-5'>
                 <div className='row justify-content-md-center row-cols-1 row-cols-md-2 row-cols-lg-4 g-4'>

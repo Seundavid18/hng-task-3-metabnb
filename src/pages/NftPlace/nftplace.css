@@ -1,0 +1,25 @@
+.location{
+    margin: 70px 0px;
+}
+
+.locationList{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.locationListItem{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #434343;
+    cursor: pointer;
+}
+
+.btnLocation{
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    padding: 10px;
+}
