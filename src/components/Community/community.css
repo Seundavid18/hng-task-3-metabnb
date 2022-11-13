@@ -40,12 +40,6 @@
     flex: 6;
 }
 
-@media(max-width: 768px){
-    .flex-box{
-        display: none;
-    }
-}
-
 .comImg{
     width: 100%;
 }
