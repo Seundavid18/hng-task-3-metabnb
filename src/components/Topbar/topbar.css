@@ -99,8 +99,11 @@
 }
 
 .nav-btn{
+    padding: 9px;
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     color: #fff;
+    border-radius: 7px;
+    border: none;
 }
 
 .nav-btn:hover{

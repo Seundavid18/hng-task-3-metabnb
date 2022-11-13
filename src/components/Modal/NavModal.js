@@ -12,7 +12,7 @@ function NavModal() {
 
   return (
     <>
-      <button className="btn nav-btn" type="submit" variant="primary" onClick={handleShow}>Connect Wallet</button>
+      <button className="nav-btn" type="submit" variant="primary" onClick={handleShow}>Connect Wallet</button>
 
       <Modal
         show={show}

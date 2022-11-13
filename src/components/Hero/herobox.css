@@ -40,15 +40,13 @@
     background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
     color: #fff;
     border-radius: 0px 8px 8px 0px;
+    padding: 9px;
+    border: none;
 }
 @media (max-width: 768px) {
     .heroBtn{
         width: 100px;
     }
-}
-
-.heroBtn:hover{
-    color: #fff;
 }
 
 .heroImg{

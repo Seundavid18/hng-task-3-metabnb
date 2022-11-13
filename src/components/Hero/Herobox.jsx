@@ -14,7 +14,7 @@ const Herobox = () => {
                     <form className="mt-5 mb-4">
                         <div className='inputContainer'>
                             <input placeholder='Serach for location' />
-                            <button className='btn heroBtn'>Search</button>
+                            <button className='heroBtn'>Search</button>
                         </div>
                     </form>
                 </div>
