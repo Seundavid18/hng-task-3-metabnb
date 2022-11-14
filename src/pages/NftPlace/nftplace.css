@@ -10,15 +10,17 @@
 
 .locationList{
     margin: 0;
+    padding: 0;
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .locationListItem{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
@@ -62,7 +64,7 @@
     margin: 0;
 }
 
-@media(max-width: 768px){
+/* @media(max-width: 768px){
     .locationListItem{
         display: none;
     }
@@ -72,4 +74,4 @@
         display: flex;
         justify-content: center;
     }
-}
+} */
