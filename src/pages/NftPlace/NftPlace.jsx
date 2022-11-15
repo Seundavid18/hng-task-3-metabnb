@@ -1,17 +1,18 @@
 import React from 'react'
 import Topbar from '../../components/Topbar/Topbar'
 import './nftplace.css'
+import TuneIcon from '@mui/icons-material/Tune';
 import { nFTS } from '../../components/NFTs-Data/Nftdata'
 import Footer from '../../components/Footer/Footer'
-import TuneIcon from '@mui/icons-material/Tune';
+import LocationModal from '../../components/Modal/LocationModal';
 
 const NftPlace = () => {
   return (
     <div>
         <Topbar />
         <div className='container mt-5'>
-            <div className='location '>
-                <ul className='locationList d-lg-flex flex-wrap justify-content-evenly g-3'>
+            <div className='location'>
+                <ul className='locationList'>
                     <li className='locationListItem'>Resturant</li>
                     <li className='locationListItem'>Cottage</li>
                     <li className='locationListItem'>Castle</li>
@@ -21,6 +22,7 @@ const NftPlace = () => {
                     <li className='locationListItem'>Off-grid</li>
                     <li className='locationListItem'>Farm</li>
                     <div className='btnLocation'>Location<TuneIcon className='ms-4'/></div>
+                    <LocationModal />
                 </ul>
             </div>
             <h1 className='inspo mb-5'>Inspiration for your next adventure</h1>

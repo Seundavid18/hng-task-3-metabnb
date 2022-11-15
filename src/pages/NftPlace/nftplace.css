@@ -14,13 +14,10 @@
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .locationListItem{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
@@ -63,15 +60,33 @@
     padding: 10px;
     margin: 0;
 }
+.btnLocationMobile{
+    width: auto;
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+    border: 1px solid #B4B4B4;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 0;
+}
 
-/* @media(max-width: 768px){
+@media(max-width: 768px){
     .locationListItem{
         display: none;
     }
 }
-@media(max-width: 768px){
+@media screen and (min-width: 769px) and (max-width: 2560px){
+    .btnLocationMobile{
+        display: none;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
     .btnLocation{
+        display: none;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .btnLocationMobile{
         display: flex;
         justify-content: center;
     }
-} */
+}
