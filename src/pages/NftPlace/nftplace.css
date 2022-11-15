@@ -25,6 +25,18 @@
     cursor: pointer;
 }
 
+.moblieHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTxt{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
 .locationMobile{
     margin: 30px 0px;
 }
@@ -75,7 +87,7 @@
     }
 }
 @media screen and (min-width: 769px) and (max-width: 2560px){
-    .btnLocationMobile{
+    .moblieHeader{
         display: none;
     }
 }
@@ -85,8 +97,8 @@
     }
 }
 @media screen and (min-width: 0px) and (max-width: 768px){
-    .btnLocationMobile{
+    .moblieHeader{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
 }

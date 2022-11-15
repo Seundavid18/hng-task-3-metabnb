@@ -22,8 +22,11 @@ const NftPlace = () => {
                     <li className='locationListItem'>Off-grid</li>
                     <li className='locationListItem'>Farm</li>
                     <div className='btnLocation'>Location<TuneIcon className='ms-4'/></div>
-                    <LocationModal />
                 </ul>
+                    <div className='moblieHeader'>
+                        <h5 className='headerTxt'>Select a place to stay:</h5>
+                        <LocationModal />
+                    </div>
             </div>
             <h1 className='inspo mb-5'>Inspiration for your next adventure</h1>
             <div className='mb-5'>

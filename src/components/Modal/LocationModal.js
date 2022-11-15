@@ -9,8 +9,8 @@ function LocationModal() {
   const handleShow = () => setShow(true);
 
   return (
-    <>
-      <div className='btnLocationMobile'type="submit" variant="primary" onClick={handleShow}>Location<TuneIcon className='ms-4'/></div>
+    <> 
+        <div className='btnLocationMobile'type="submit" variant="primary" onClick={handleShow}>Location<TuneIcon className='ms-2'/></div>
       <Modal
         show={show}
         onHide={handleClose}
