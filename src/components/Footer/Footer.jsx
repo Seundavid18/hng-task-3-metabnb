@@ -4,6 +4,7 @@ import footerImg from '../../images/footerImg.png'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -22,30 +23,54 @@ const Footer = () => {
                 <div className='footerItems'>
                     <h1 className="footerTitle">Community</h1>
                     <ul className='footerList'>
-                        <li className='footerListItem'>NFT</li>
-                        <li className='footerListItem'>Tokens</li>
-                        <li className='footerListItem'>Landlords</li>
-                        <li className='footerListItem'>Discord</li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>NFT</Link> 
+                        </li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Tokens</Link> 
+                        </li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Landlords</Link> 
+                        </li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Discord</Link> 
+                        </li>
                     </ul>
                 </div>
 
                 <div className='footerItems'>
                     <h1 className="footerTitle">Places</h1>
                     <ul className='footerList'>
-                        <li className='footerListItem'>Castle</li>
-                        <li className='footerListItem'>Farms</li>
-                        <li className='footerListItem'>Beach</li>
-                        <li className='footerListItem'>Learn more</li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Castle</Link> 
+                        </li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Farms</Link> 
+                        </li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Beach</Link> 
+                        </li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Learn more</Link> 
+                        </li>
                     </ul>
                 </div>
 
                 <div className='footerItems'>
                     <h1 className="footerTitle">About us</h1>
                     <ul className='footerList'>
-                        <li className='footerListItem'>Road map</li>
-                        <li className='footerListItem'>Creators</li>
-                        <li className='footerListItem'>Career</li>
-                        <li className='footerListItem'>Contact us</li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Road map</Link> 
+                        </li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Creators</Link> 
+                        </li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Career</Link> 
+                        </li>
+                        <li className='footerListItem'>
+                           <Link style={{cursor: 'pointer', color: '#fff'}} className='link'>Contact us</Link> 
+                        </li>
                     </ul>
                 </div>
             </div>
