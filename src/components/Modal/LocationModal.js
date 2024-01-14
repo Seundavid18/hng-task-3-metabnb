@@ -33,7 +33,7 @@ function LocationModal() {
                     <li className='locationListItemMobile'>Beach</li>
                     <li className='locationListItemMobile'>Carbins</li>
                     <li className='locationListItemMobile'>Off-grid</li>
-                    <li className='locationListItemMobile'>Farm</li>
+                    <li className='locationListItemMobile'>Field</li>
                 </ul>
             </div>
         </Modal.Body>
